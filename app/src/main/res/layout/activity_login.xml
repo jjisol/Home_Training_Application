@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="15dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="40dp"
+        android:layout_margin="30dp"
+        android:text="Log In"
+        android:textColor="#ff7b00"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="이메일 아이디"
+        android:textColor="#ff7b00"/>
+    <EditText
+        android:id="@+id/main_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="E-mail"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="10dp"
+        android:text="비밀먼호"
+        android:textColor="#ff7b00"/>
+    <EditText
+        android:id="@+id/main_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="password"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/main_login_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginTop="50dp"
+        android:text="LOG IN"
+        android:textColor="#ffffff"
+        android:backgroundTint="#ff7b00"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:text="회원이 아니세요?"
+        android:textColor="#ff7b00"/>
+    <Button
+        android:id="@+id/main_join_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="회원가입"
+        android:textColor="#ffffff"
+        android:backgroundTint="#ff7b00"/>
+</LinearLayout>

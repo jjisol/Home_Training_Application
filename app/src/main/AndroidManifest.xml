@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.techtown.sportsdata">
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="TOTO"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".TabActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SuccessLogin"></activity>
+        <activity
+            android:name=".LoginActivity"></activity>
+        <activity
+            android:name=".SignUpActivity"></activity>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme_actionbar"></activity>
+        <activity
+            android:name=".DetailActivity"
+            android:theme="@style/AppTheme_actionbar"></activity>
+        <activity
+            android:name=".PlanActivity"
+            android:theme="@style/AppTheme_actionbar"></activity>
+        <activity
+            android:name=".AlarmActivity"></activity>
+        <activity
+            android:name=".AlarmListActivity"
+            android:theme="@style/AppTheme_actionbar"></activity>
+        <receiver android:name=".BroadcastD"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+    </application>
+
+
+</manifest>

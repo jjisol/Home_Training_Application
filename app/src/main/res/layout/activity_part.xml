@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <Button
+                android:id="@+id/abs_btn"
+                android:layout_width="150dp"
+                android:layout_height="180dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/toto_abs"/>
+            <Button
+                android:id="@+id/quads_btn"
+                android:layout_width="150dp"
+                android:layout_height="180dp"
+                android:background="@drawable/toto_glutes3" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <Button
+                android:id="@+id/hip_btn"
+                android:layout_width="150dp"
+                android:layout_height="180dp"
+                android:background="@drawable/toto_hip3"
+                android:layout_marginRight="20dp"/>
+            <Button
+                android:id="@+id/arm_btn"
+                android:layout_width="150dp"
+                android:layout_height="180dp"
+                android:background="@drawable/toto_arm2"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <Button
+                android:id="@+id/back_btn"
+                android:layout_width="150dp"
+                android:layout_height="180dp"
+                android:background="@drawable/toto_back"
+                android:layout_marginRight="20dp"/>
+            <Button
+                android:id="@+id/chest_btn"
+                android:layout_width="150dp"
+                android:layout_height="180dp"
+                android:background="@drawable/toto_chest" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

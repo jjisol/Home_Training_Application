@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "486588953950",
+    "firebase_url": "https://sportsdata-a5c57.firebaseio.com",
+    "project_id": "sportsdata-a5c57",
+    "storage_bucket": "sportsdata-a5c57.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:486588953950:android:029a959ef3179b99",
+        "android_client_info": {
+          "package_name": "org.techtown.sportsdata"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "486588953950-as1v46d00ecka76jviro92srutee6gor.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.techtown.sportsdata",
+            "certificate_hash": "35ef5006de57f1117a2ff0e94b3705856620ad91"
+          }
+        },
+        {
+          "client_id": "486588953950-feuga3vpddbrbtces56cfrr34t1432q9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkeDiwnZan03fbgjkRnVRDVFzb7UjQnAk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "486588953950-feuga3vpddbrbtces56cfrr34t1432q9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
